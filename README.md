@@ -58,7 +58,7 @@ GET/PUT /api/fmc_config/v1/domain/{domainUUID}/policy/ftdplatformsettingspolicie
 
 ```bash
 git clone https://github.com/Gyuri1/FMC_SNMP_Platform_Settings.git
-cd fmc-snmpv3
+cd FMC_SNMP_Platform_Settings
 ```
 
 ### 2. (Recommended) Create a virtual environment
