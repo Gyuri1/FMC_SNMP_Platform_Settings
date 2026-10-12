@@ -1,4 +1,3 @@
-# FMC_SNMP_Platform_Settings
 
 # FMC SNMPv3 Password Updater
 
