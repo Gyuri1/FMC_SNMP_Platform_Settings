@@ -284,6 +284,14 @@ FMC password:
 [+] Reading SNMP settings: FTD1 (005056AE-FC0E-0ed3-0000-008589933901)
     [OK] Password updated for SNMPv3 user 'cisco'.
 [+] Done. Deploy the policy to apply the change on the FTD devices.
+
+
+python fmc-snmpv3.py --host fmc.company.com  --user admin --insecure --policy "FTD1" --SNMPUser cisco1 --SNMPPassword 'NewS3cretPass!'
+FMC password: 
+[+] Reading SNMP settings: FTD1 (005056AE-FC0E-0ed3-0000-008589933901)
+    - SNMPv3 user 'cisco1' not found in this policy.
+ERROR: SNMPv3 user 'cisco1' was NOT found among the SNMPv3 users of the selected policy/policies.
+
 ```
 
 
