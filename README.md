@@ -279,7 +279,8 @@ https://<fmc>/api/api-explorer
 
 ## Example:
 
-```python fmc-snmpv3.py --host fmc.company.com --user admin --insecure --policy "FTD1" --SNMPUser cisco --SNMPPassword 'NewS3cretPass!'
+```
+python fmc-snmpv3.py --host fmc.company.com --user admin --insecure --policy "FTD1" --SNMPUser cisco --SNMPPassword 'NewS3cretPass!'
 FMC password: 
 [+] Reading SNMP settings: FTD1 (005056AE-FC0E-0ed3-0000-008589933901)
     [OK] Password updated for SNMPv3 user 'cisco'.
