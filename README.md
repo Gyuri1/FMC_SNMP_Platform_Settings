@@ -294,7 +294,18 @@ FMC password:
 ERROR: SNMPv3 user 'cisco1' was NOT found among the SNMPv3 users of the selected policy/policies.
 
 ```
+## How to test:
+```
+snmpwalk -v3 -l authNoPriv -u cisco -a SHA -A "NewPass123" ftd 1.3.6.1.2.1.1
+SNMPv2-MIB::sysDescr.0 = STRING: Cisco Firepower Threat Defense, Version 10.0.0 (Build 140), ASA Version 9.24(1)
+SNMPv2-MIB::sysObjectID.0 = OID: SNMPv2-SMI::enterprises.9.1.1902
+DISMAN-EVENT-MIB::sysUpTimeInstance = Timeticks: (7932700) 22:02:07.00
+SNMPv2-MIB::sysContact.0 = STRING: 
+SNMPv2-MIB::sysName.0 = STRING: ftdv
+SNMPv2-MIB::sysLocation.0 = STRING: 
+SNMPv2-MIB::sysServices.0 = INTEGER: 4
 
+```
 
 ## Disclaimer
 
